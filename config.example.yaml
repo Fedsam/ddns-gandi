@@ -1,0 +1,5 @@
+gandi-url: https://api.gandi.net/v5/livedns/domains/xxx/records # do not modify
+ip-resolver-url: https://checkip.amazonaws.com # do not modify
+domain: # your domain name
+apikey: # your api key
+subdomains: [] # your subdomains eg. [@, *, blog] 
