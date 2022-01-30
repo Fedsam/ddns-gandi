@@ -13,8 +13,8 @@ import (
 )
 
 type Config struct {
-	URL             string   `yaml:"gandi_url"`
-	IP_RESOLVER_URL string   `yaml:"ip_resolver_url"`
+	URL             string   `yaml:"url"`
+	IP_RESOLVER_URL string   `yaml:"ip-resolver-url"`
 	DOMAIN          string   `yaml:"domain"`
 	API_KEY         string   `yaml:"apikey"`
 	SUBDOMAINS      []string `yaml:"subdomains"`
